@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+
+
+#navegacion {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+#navegacion li {
+  text-decoration: none;
+  color: #2d4e64;
+  font-size: 1.2rem;
+}
+
+#navegacion li a{
+  color: #000;
+}
+
+nav div {
+  width: 10rem;
+  text-align: center;
+}
+
+#imagenes {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.ancho-50 {
+  width: 50%;
+}
+
+#texto-header {
+  display: flex;
+}
+
+#intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  color: #2d4e64;
+  justify-content: center;
+  padding-left: 3.5rem;
+  font-size: 7vw;
+  flex-direction: column;
+  text-align: justify;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.negrita-suave {
+  font-weight: 500;
+  margin-top: -3.4rem;
+}
+
+#titulo-servicios {
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  color: #2d4e64;
+  margin-top: 10rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.contendor-cards{
+  margin-top: 3rem;
+  height: 25rem;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  min-width: 300px;
+  width: 10rem;
+  height: 25rem;
+}
+
+
+#servicios {
+  background-image: url(media/Group\ 4.png);
+  background-repeat: no-repeat;
+  height: 40rem;
+  margin-top: 7rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2d4e64;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 30%;
+  background-color: whitesmoke;
+  height: 30rem;
+}
+
+#imagen-header {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+#imagen-header img {
+  position: absolute;
+  top: 2rem;
+  width: 40vw;
+}
+
+footer {
+  margin-top: 18rem;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.form input, .form textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form textarea {
+  height: 150px;
+}
+
+.form button {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contendor-cards-lq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.info-f {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 45%;
+  padding: 1rem;
+}
+
+
+
+.info-f .negrita-suave {
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  gap: 3rem;
+}
+
+.form1 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+#submit {
+  width: 100%;
+  background-color: orange;
+  font-weight: 700;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.img-card{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 10rem;
+  min-height: 10rem;
+}
+
+.img-header{
+  position: absolute;
+  z-index: 0 !important;
+}
+
+#servicios{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.negrita-fuerte {
+  font-weight: 600;
+}
+
+.info-f .negrita-fuerte {
+  font-size: 3rem;
+}
+
+#servicios .negrita-fuerte#titulo {
+  font-size: 4rem;
+}
+
+#tuneg {
+  font-size: 3rem;
+  color: #2d4e64;
+}
+
+nav {
+  width: calc(100% - 6rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2.5rem;
+
+  position: sticky;
+}
+
+header{
+  height: 30rem;
+}
+
+.card-larga {
+  background-color: white;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 25%;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.card-larga .card-body {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: #2d4e64;
+  flex-direction: column;
+}
+
+  @media (max-width: 768px) {
+
+    #dream {
+      display: none;
+    }
+  
+    #imagenes {
+      display: none;
+    }
+  
+    #intro {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    
+  
+    .contendor-cards-lq {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      flex-direction: column;
+    }
+  
+    .card-larga {
+      width: 90%;
+      height: 25rem;
+    }
+  
+    .w-100 {
+      flex-direction: column;
+    }
+  
+    footer {
+      border-radius: 0;
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+  
+    .form {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .form1,.form2 {
+      width: 100%;
+    }
+  
+    .info-f {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    #imagen-header img {
+      position: absolute;
+      top: 4rem;
+      width: 40vw;
+      border-radius: 50%;
+      left: 2rem;
+    }
+  
+    .ancho-50 {
+      width: 90%;
+    }
+  
+    #intro {
+      align-items: center;
+      margin-top: 5rem;
+      font-size: 3rem;
+    }
+  
+    .negrita-suave {
+      margin-top: -0.5rem;
+    }
+  
+    #imagen-header img {
+      width: 20rem;
+    }
+  
+    #imagen-header {
+      margin-left: 7rem;
+    }
+  
+    #titulo-started {
+      align-items: center;
+      margin-bottom: 10rem;
+    }
+  
+    #imagen-header {
+      margin-left: 10vw;
+    }
+  
+    #titulo-servicios {
+      flex-direction: column-reverse;
+      margin-top: 10rem;
+      margin-left: 2rem;
+      width: 90%;
+    }
+  
+    .card .body {
+      padding: 2rem;
+    }
+    
+    header{
+      height: 30rem;
+    }
+
+  }
+
+
+  .icon-media {
+    width: 30px;
+    height: 30px;
+  }
